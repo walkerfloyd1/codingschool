@@ -1,0 +1,52 @@
+h1 {
+    font-family: mon;
+    position: static;
+    margin: 0px 200px 0px 200px;
+    padding: 20px;
+    width: 100px;
+    
+}
+
+p {
+    font-family: 'Oswald', sans-serif;
+    position: static;
+    margin: 0px 200px 0px 200px;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 20px;
+    width: 600px;
+    line-height: 40px;
+    letter-spacing: 20px;
+    border: solid;
+    
+}
+#smallgraybox {
+    position: fixed;
+    background-color: #eeeeee;
+    top: 0;
+    padding: 20px;
+    width: 275px;
+    height: 60px;
+    text-align: center;
+    left: 10px;
+}
+
+#largegraybox {
+    position: relative;
+    background-color: #eeeeee;
+    padding: 20px;
+    text-align: center;
+    margin: 0px 200px 0px 200px;
+    width: 700px;
+    height: 200px;
+}
+
+#darkgraybox {
+    position: absolute;
+    background-color: #999999;
+    padding: 25px;
+    text-align: center;
+    top: 440px;
+    margin-left: 800px;
+    display: block;
+}
