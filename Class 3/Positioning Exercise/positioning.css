@@ -1,10 +1,15 @@
 h1 {
-    font-family: mon;
+    font-family: 'Times New Roman', Times, serif;
     position: static;
     margin: 0px 200px 0px 200px;
     padding: 20px;
     width: 100px;
     
+}
+
+h1:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 p {
@@ -18,7 +23,10 @@ p {
     line-height: 40px;
     letter-spacing: 20px;
     border: solid;
-    
+}
+
+p:hover {
+    font-size: 40px;
 }
 #smallgraybox {
     position: fixed;
@@ -31,6 +39,11 @@ p {
     left: 10px;
 }
 
+#smallgraybox:hover {
+    background: blue;
+    width: 300px;
+}
+
 #largegraybox {
     position: relative;
     background-color: #eeeeee;
@@ -41,6 +54,12 @@ p {
     height: 200px;
 }
 
+#largegraybox:hover {
+    padding: 40px;
+    background: black;
+    color: white;
+}
+
 #darkgraybox {
     position: absolute;
     background-color: #999999;
@@ -49,4 +68,8 @@ p {
     top: 440px;
     margin-left: 800px;
     display: block;
+}
+
+#darkgraybox:hover {
+    padding: 50px;
 }
